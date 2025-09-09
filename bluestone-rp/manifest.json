@@ -37,6 +37,7 @@
     }
   ],
   "metadata": {
-    "product_type": "addon"
+    "product_type": "addon",
+    "authors": [ "Amin MT", "LeonidaMan6552" ]
   }
 }
