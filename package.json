@@ -1,0 +1,25 @@
+{
+  "name": "bluestone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterhakem/bluestone.git"
+  },
+  "keywords": [
+    "Minecraft-bedrock-addon"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/peterhakem/bluestone/issues"
+  },
+  "homepage": "https://github.com/peterhakem/bluestone#readme",
+  "dependencies": {
+    "@minecraft/server": "^2.1.0"
+  }
+}
