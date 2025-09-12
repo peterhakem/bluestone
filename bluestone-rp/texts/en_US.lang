@@ -1,3 +1,4 @@
 pack.name=bluestone
 pack.description=yes
 item.bs:bluestone_dust=§9Bluestone
+item.bs:intro_book=§9Bluestone Addon Introduction

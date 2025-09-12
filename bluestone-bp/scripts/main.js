@@ -1,4 +1,4 @@
-import { system, world, ItemComponentTypes } from "@minecraft/server";
+import { system, world, ItemComponentTypes, EntityComponentTypes, ItemStack } from "@minecraft/server";
 import { ActionFormData } from "@minecraft/server-ui";
 
 /**
@@ -25,4 +25,13 @@ system.beforeEvents.startup.subscribe(init => {
       introUi(source)
     }
   })
+})
+
+world.afterEvents.playerSpawn.subscribe(({ initialSpawn, player }) => {
+  if (!initialSpawn) return;
+  
+  const { container } = player.getComponent(EntityComponentTypes.Inventory);
+  const book = new ItemStack("bs:intro_book", 1);
+  
+  container.addItem(book);
 })
