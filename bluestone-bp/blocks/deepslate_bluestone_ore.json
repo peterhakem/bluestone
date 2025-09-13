@@ -9,6 +9,7 @@
       }
     },
     "components": {
+      "minecraft:geometry": "minecraft:geometry.full_block",
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 26.0
       },
@@ -22,13 +23,16 @@
       "minecraft:selection_box": true,
       "minecraft:material_instances": {
         "*": {
-          "texture": "deepslate_bluestone_ore",
-          "render_method": "opaque"
+          "texture": "bluestone_block",
+          "render_method": "opaque",
+          "ambient_occlusion": true,
+          "face_dimming": true
         }
       },
       "minecraft:redstone_conductivity": {
         "redstone_conductor": true
-      }
+      },
+      "tag:minecraft:stone_tier_destructible": {}
     }
   }
 }

@@ -13,10 +13,7 @@
       "minecraft:selection_box": true,
       "minecraft:collision_box": true,
       "minecraft:light_dampening": 15,
-      "minecraft:light_emission": 0,,
-      "minecraft:redstone_conductivity": {
-        "redstone_conductor": true
-      }
+      "minecraft:light_emission": 0,
       "minecraft:material_instances": {
         "*": {
           "texture": "bluestone_block",
@@ -24,7 +21,11 @@
           "ambient_occlusion": true,
           "face_dimming": true
         }
-      }
+      },
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      },
+      "tag:minecraft:iron_tier_destructible": {}
     }
   }
 }

@@ -22,10 +22,10 @@ system.beforeEvents.startup.subscribe(init => {
     onUse: ({ itemStack, source }) => {
       const cooldown = itemStack.getComponent(ItemComponentTypes.Cooldown);
       cooldown.startCooldown(source);
-      introUi(source)
+      introUi(source);
     }
-  })
-})
+  });
+});
 
 world.afterEvents.playerSpawn.subscribe(({ initialSpawn, player }) => {
   if (!initialSpawn) return;
@@ -34,4 +34,4 @@ world.afterEvents.playerSpawn.subscribe(({ initialSpawn, player }) => {
   const book = new ItemStack("bs:intro_book", 1);
   
   container.addItem(book);
-})
+});
