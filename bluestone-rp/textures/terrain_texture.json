@@ -8,6 +8,11 @@
       "textures": [
         "textures/blocks/deepslate_bluestone_ore"
       ]
+    },
+    "bluestone_block": {
+      "textures": [
+        "textures/blocks/bluestone_block"
+      ]
     }
   }
 }
