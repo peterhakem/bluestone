@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "bs:redstone_dust",
+          "name": "bs:bluestone_dust",
           "weight": 1,
           "functions": [
             {

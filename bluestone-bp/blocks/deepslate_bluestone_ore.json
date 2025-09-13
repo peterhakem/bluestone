@@ -14,7 +14,15 @@
         "explosion_resistance": 8.0
       },
       "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 26.0
+        "seconds_to_destroy": 26.0,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_tool', 'minecraft:is_pickaxe') && q.any_tag('minecraft:diamond_tier', 'minecraft:netherite_tier', 'minecraft:iron_tier')"
+            },
+            "destroy_speed": 2
+          }
+        ]
       },
       "minecraft:friction": 0.4,
       "minecraft:map_color": "#116611",
