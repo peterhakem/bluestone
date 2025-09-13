@@ -25,7 +25,7 @@
       "minecraft:redstone_conductivity": {
         "redstone_conductor": true
       },
-      "tag:minecraft:iron_tier_destructible": {}
+      "tag:minecraft:stone_tier_destructible": {}
     }
   }
 }

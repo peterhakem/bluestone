@@ -2,5 +2,5 @@ pack.name=bluestone
 pack.description=yes
 item.bs:bluestone_dust=§9Bluestone Dust
 item.bs:intro_book=§9Bluestone Addon Introduction
-tile.bs:bluestone_ore.name=Bluestone Ore
-tile.bs:bluestone_ore=Bluestone Ore
+tile.bs:deepslate_bluestone_ore.name=Deepslate Bluestone Ore
+tile.bs:bluestone_block.name=Block of Bluestone
