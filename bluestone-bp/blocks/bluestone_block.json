@@ -7,11 +7,16 @@
     "components": {
       "minecraft:geometry": "minecraft:geometry.full_block",
       "minecraft:destructible_by_explosion": true,
-      "minecraft:destructible_by_mining": true,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 26.0
+      },
       "minecraft:selection_box": true,
       "minecraft:collision_box": true,
       "minecraft:light_dampening": 15,
-      "minecraft:light_emission": 0,
+      "minecraft:light_emission": 0,,
+      "minecraft:redstone_conductivity": {
+        "redstone_conductor": true
+      }
       "minecraft:material_instances": {
         "*": {
           "texture": "bluestone_block",
