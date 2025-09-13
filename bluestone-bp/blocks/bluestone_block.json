@@ -6,10 +6,14 @@
     },
     "components": {
       "minecraft:geometry": "minecraft:geometry.full_block",
-      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 16.0
+      },
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 26.0
       },
+      "minecraft:friction": 0.4,
+      "minecraft:map_color": "#06EE06",
       "minecraft:selection_box": true,
       "minecraft:collision_box": true,
       "minecraft:light_dampening": 15,

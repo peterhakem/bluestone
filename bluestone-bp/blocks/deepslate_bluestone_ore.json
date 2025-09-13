@@ -4,15 +4,18 @@
     "description": {
       "identifier": "bs:deepslate_bluestone_ore",
       "menu_category": {
-        "category": "nature"
+        "category": "nature",
+        "group": "minecraft:itemGroup.name.ore"
       }
     },
     "components": {
       "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 8.0
+      },
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 26.0
       },
-      "minecraft:destructible_by_explosion": true,
       "minecraft:friction": 0.4,
       "minecraft:map_color": "#116611",
       "minecraft:light_dampening": 15,
