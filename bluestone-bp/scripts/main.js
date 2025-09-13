@@ -29,9 +29,11 @@ system.beforeEvents.startup.subscribe(init => {
 
 world.afterEvents.playerSpawn.subscribe(({ initialSpawn, player }) => {
   if (!initialSpawn) return;
+  if (player.hasTag("joined_before")) return;
   
   const { container } = player.getComponent(EntityComponentTypes.Inventory);
   const book = new ItemStack("bs:intro_book", 1);
   
   container.addItem(book);
+  player.addTag("joined_before")
 });
