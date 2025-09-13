@@ -2,13 +2,13 @@
   "format_version": "1.17.0",
   "minecraft:ore_feature": {
     "description": {
-      "identifier": "bs:bluestone_ore_features"
+      "identifier": "bs:deepslate_bluestone_ore_feature"
     },
     "count": 8,
     "discard_chance_on_air_exposure": 0.5,
     "replace_rules": [
       {
-        "places_block": "bs:bluestone_ore",
+        "places_block": "bs:deepslate_bluestone_ore",
         "may_replace": [
           "minecraft:stone",
           "minecraft:deepslate"

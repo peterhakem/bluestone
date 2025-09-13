@@ -4,9 +4,9 @@
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
-    "bs_bluestone_ore": {
+    "deepslate_bluestone_ore": {
       "textures": [
-        "textures/blocks/bs_bluestone_ore"
+        "textures/blocks/deepslate_bluestone_ore"
       ]
     }
   }

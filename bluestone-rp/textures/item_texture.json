@@ -3,7 +3,7 @@
   "texture_name": "atlas.items",
   "texture_data": {
     "bs:bluestone_dust": {
-      "textures": "textures/items/bluestone"
+      "textures": "textures/items/bluestone_dust"
     }
   }
 }
